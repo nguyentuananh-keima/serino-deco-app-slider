@@ -1,0 +1,68 @@
+{
+  "/": {
+    "title": "Home page",
+    "slides": [
+      {
+        "id": 1,
+        "content": "Welcome to the homepage presentation.",
+        "image": "slide1.jpg",
+        "animations": [
+          { "type": "fadeIn", "direction": "up", "duration": 1000, "delay": 0 },
+          { "type": "zoomIn", "direction": "center", "duration": 1500, "delay": 200 }
+        ]
+      },
+      {
+        "id": 2,
+        "content": "Overview of our services.",
+        "image": "slide2.jpg",
+        "animations": [
+          { "type": "slideIn", "direction": "left", "duration": 1200, "delay": 100 }
+        ]
+      }
+    ]
+  },
+  "/01": {
+    "title": "page 01",
+    "slides": [
+      {
+        "id": 1,
+        "content": "Welcome to the page 01.",
+        "image": "slide1.jpg",
+        "animations": [
+          { "type": "fadeIn", "direction": "up", "duration": 1000, "delay": 0 },
+          { "type": "zoomIn", "direction": "center", "duration": 1500, "delay": 200 }
+        ]
+      },
+      {
+        "id": 2,
+        "content": "Overview of our services.",
+        "image": "slide2.jpg",
+        "animations": [
+          { "type": "slideIn", "direction": "left", "duration": 1200, "delay": 100 }
+        ]
+      }
+    ]
+  },
+  "/02": {
+    "title": "page 02",
+    "slides": [
+      {
+        "id": 1,
+        "content": "Welcome to the page 02.",
+        "image": "slide1.jpg",
+        "animations": [
+          { "type": "fadeIn", "direction": "up", "duration": 1000, "delay": 0 },
+          { "type": "zoomIn", "direction": "center", "duration": 1500, "delay": 200 }
+        ]
+      },
+      {
+        "id": 2,
+        "content": "Overview of our services.",
+        "image": "slide2.jpg",
+        "animations": [
+          { "type": "slideIn", "direction": "left", "duration": 1200, "delay": 100 }
+        ]
+      }
+    ]
+  }
+}
