@@ -2,23 +2,18 @@
   <div>
     <!-- <page_template /> -->
     <!-- <index /> -->
-    <page />
+    <PageDetail01 />
   </div>
 </template>
 
 <script>
-import page_template from './views/page-template.vue';
-import index from './views/index.vue';
-import page from './views/Page.vue';
-
+import PageDetail01 from './views/PageDetail01.vue';
 import './style/main.scss';
 
 export default {
   name: 'App',
   components: {
-    page_template,
-    index,
-    page
+    PageDetail01
   },
   data() {
     return {};
