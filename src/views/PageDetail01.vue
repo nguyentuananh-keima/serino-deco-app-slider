@@ -1001,18 +1001,18 @@ export default {
       count_delay++;
       });
       // End slide 10
-      // anime({
-      //   targets: this.$refs.slide_10,
-      //   opacity: [1, 0],
-      //   duration: timeDuration,
-      //   easing: 'easeInOutQuad',
-      //   delay: count_delay * timeDuration, 
-      //   complete: () => {
-      //     this.$refs.slide_10.style.display = 'none';
-      //     console.log('Background is now hidden');
-      //   },
-      // });
-      // count_delay++;
+      anime({
+        targets: this.$refs.slide_10,
+        opacity: [1, 0],
+        duration: timeDuration,
+        easing: 'easeInOutQuad',
+        delay: count_delay * timeDuration, 
+        complete: () => {
+          this.$refs.slide_10.style.display = 'none';
+          console.log('Background is now hidden');
+        },
+      });
+      count_delay++;
 
     });
   },
