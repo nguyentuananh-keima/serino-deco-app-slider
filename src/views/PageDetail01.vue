@@ -8,22 +8,21 @@
 
         <!-- Title -->
         <div class="box__title">
-          <p v-for="(title_01, index) in slide_1_title" :key="index" :ref="'title_01' + index" class="title font-size-24px font-weight-bold">{{title_01}}</p>
+          <p v-for="(title_01, index) in slide_1_title" :key="index" :ref="'title_01' + index" class="title title__special font-size-24px font-weight-bold">{{title_01}}</p>
         </div>
         <!-- Paragraph -->
-        <div class="box__paragraph">
-          <p v-for="(line_01, index) in slide_1_paragraph" :key="index" :ref="'line_01' + index" class="paragraph font-size-32px font-weight-bold text-underline">
+        <div class="box__paragraph mt-20">
+          <p v-for="(line_01, index) in slide_1_paragraph" :key="index" :ref="'line_01' + index" class="paragraph paragraph__special font-size-32px font-weight-bold text-underline">
             {{ line_01 }}
           </p>
         </div>
       </div>
     </div>
-
     <!-- Slide 02 -->
     <div ref="slide_2" class="background slide_2__background">
       <div ref="slide_2__triangle" class="triangle slide_2__triangle is_bottom--left"></div>
       <!-- Box -->
-      <div ref="slide_2__box" class="box is_bottom--left">
+      <div ref="slide_2__box" class="box is_bottom--left pd-top-60 pd-bottom-60">
 
         <!-- Title -->
         <div class="box__title">
@@ -37,7 +36,6 @@
         </div>
       </div>
     </div>
-
     <!-- Slide 03 -->
     <div ref="slide_3" class="background slide_3__background">
       <div ref="slide_3__triangle" class="triangle slide_3__triangle is_bottom--right"></div>
@@ -62,7 +60,6 @@
         </div>
       </div>
     </div>
-
     <!-- Slide 04 -->
     <div ref="slide_4" class="background slide_4__background">
       <div ref="slide_4__triangle" class="triangle slide_4__triangle is_bottom--left"></div>
@@ -81,12 +78,11 @@
         </div>
       </div>
     </div>
-
     <!-- Slide 05 -->
     <div ref="slide_5" class="background slide_5__background">
       <div ref="slide_5__triangle" class="triangle slide_5__triangle is_bottom--right"></div>
       <!-- Box -->
-      <div ref="slide_5__box" class="box is_bottom--right text-align-right">
+      <div ref="slide_5__box" class="box is_bottom--right text-align-right pd-bottom-10">
 
         <!-- Title -->
         <div class="box__title">
@@ -100,18 +96,17 @@
         </div>
         <!-- Paragraph -->
         <div class="box__paragraph--note">
-          <p v-for="(line_05_note, index) in slide_5_paragraph_note" :key="index" :ref="'line_05_note' + index" class="paragraph font-size-14px font-weight-normal">
+          <p v-for="(line_05_note, index) in slide_5_paragraph_note" :key="index" :ref="'line_05_note' + index" class="paragraph font-size-8px font-weight-normal">
             {{ line_05_note }}
           </p>
         </div>
       </div>
     </div>
-
     <!-- Slide 06 -->
     <div ref="slide_6" class="background slide_6__background">
       <div ref="slide_6__triangle" class="triangle slide_6__triangle is_bottom--left"></div>
       <!-- Box -->
-      <div ref="slide_6__box" class="box is_bottom--left">
+      <div ref="slide_6__box" class="box is_bottom--left pd-bottom-10">
 
         <!-- Title -->
         <div class="box__title">
@@ -125,18 +120,17 @@
         </div>
         <!-- Paragraph -->
         <div class="box__paragraph--note">
-          <p v-for="(line_06_note, index) in slide_6_paragraph_note" :key="index" :ref="'line_06_note' + index" class="paragraph font-size-14px font-weight-normal">
+          <p v-for="(line_06_note, index) in slide_6_paragraph_note" :key="index" :ref="'line_06_note' + index" class="paragraph font-size-8px font-weight-normal">
             {{ line_06_note }}
           </p>
         </div>
       </div>
     </div>
-
     <!-- Slide 07 -->
     <div ref="slide_7" class="background slide_7__background">
       <div ref="slide_7__triangle" class="triangle slide_7__triangle is_bottom--right"></div>
       <!-- Box -->
-      <div ref="slide_7__box" class="box is_bottom--right text-align-right">
+      <div ref="slide_7__box" class="box is_bottom--right text-align-right pd-top-80 pd-bottom-80">
 
         <!-- Title -->
         <div class="box__title">
@@ -151,12 +145,11 @@
         </div>
       </div>
     </div>
-
     <!-- Slide 08 -->
     <div ref="slide_8" class="background slide_8__background">
       <div ref="slide_8__triangle" class="triangle slide_8__triangle is_bottom--left"></div>
       <!-- Box -->
-      <div ref="slide_8__box" class="box is_bottom--left">
+      <div ref="slide_8__box" class="box is_bottom--left pd-top-80 pd-bottom-80">
 
         <!-- Title -->
         <div class="box__title">
@@ -177,12 +170,11 @@
         </div>
       </div>
     </div>
-
     <!-- Slide 09 -->
     <div ref="slide_9" class="background slide_9__background">
       <div ref="slide_9__triangle" class="triangle slide_9__triangle is_top--left"></div>
       <!-- Box -->
-      <div ref="slide_9__box" class="box is_top--left">
+      <div ref="slide_9__box" class="box is_top--left mb_is_bottom--right pd-top-60 pd-bottom-60">
 
         <!-- Title -->
         <div class="box__title">
@@ -209,12 +201,11 @@
         </div>
       </div>
     </div>
-
     <!-- Slide 10 -->
     <div ref="slide_10" class="background slide_10__background">
       <div ref="slide_10__triangle" class="triangle slide_10__triangle bottom--left"></div>
       <!-- Box -->
-      <div ref="slide_10__box" class="box is_bottom--left">
+      <div ref="slide_10__box" class="box is_bottom--left mb_is_bottom--left pd-top-80 pd-bottom-80">
 
         <!-- Title -->
         <div class="box__title">
@@ -235,8 +226,7 @@
         </div>
       </div>
     </div>
-    
-    
+
   </div>
 </template>
 
@@ -366,7 +356,7 @@ export default {
   mounted() {
     this.$nextTick(() => {
       let count_delay = 1;
-      const timeDuration = 500;
+      const timeDuration = 200;
       anime({
         targets: this.$refs.slide_1,
         opacity: [0, 1],
@@ -1011,18 +1001,18 @@ export default {
       count_delay++;
       });
       // End slide 10
-      anime({
-        targets: this.$refs.slide_10,
-        opacity: [1, 0],
-        duration: timeDuration,
-        easing: 'easeInOutQuad',
-        delay: count_delay * timeDuration, 
-        complete: () => {
-          this.$refs.slide_10.style.display = 'none';
-          console.log('Background is now hidden');
-        },
-      });
-      count_delay++;
+      // anime({
+      //   targets: this.$refs.slide_10,
+      //   opacity: [1, 0],
+      //   duration: timeDuration,
+      //   easing: 'easeInOutQuad',
+      //   delay: count_delay * timeDuration, 
+      //   complete: () => {
+      //     this.$refs.slide_10.style.display = 'none';
+      //     console.log('Background is now hidden');
+      //   },
+      // });
+      // count_delay++;
 
     });
   },
@@ -1046,17 +1036,17 @@ export default {
 }
 .box {
   position: absolute;
-  width: 45%;
+  width: 100%;
   height: auto;
   color: #FFFFFF;
   z-index: 2;
-  padding: 30px;
+  padding: 40px 30px;
 }
 .box__paragraph {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .box__paragraph--note {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .is_top--left {
   top: 0;
@@ -1080,20 +1070,24 @@ export default {
   text-decoration: underline;
 }
 .font-size-32px {
-  font-size: 32px;
+  font-size: calc(32 * (100vw / 1360));
   line-height: 1.5;
 }
 .font-size-24px {
-  font-size: 24px;
+  font-size: calc(24 * (100vw / 1360));
   line-height: 1.5;
 }
 .font-size-16px {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: calc(16 * (100vw / 1360));
+  line-height: 1.6;
 }
 .font-size-14px {
-  font-size: 14px;
+  font-size: max(14px, 14 * (100vw / 1360));
   line-height: 1.5;
+}
+.font-size-8px {
+  font-size: max(8px, 8 * (100vw / 1360));
+  line-height: 1.6;
 }
 .font-weight-bold {
   font-weight: 700;
@@ -1104,7 +1098,54 @@ export default {
 .font-weight-normal {
   font-weight: 400;
 }
-
+.mt-0 {
+  margin-top: 0;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.pd-top-0 {
+  padding-bottom: 0;
+}
+.pd-bottom-0 {
+  padding-bottom: 0;
+}
+.pd-top-10 {
+  padding-bottom: 10px !important;
+}
+.pd-bottom-10 {
+  padding-bottom: 10px !important;
+}
+.pd-top-60 {
+  padding-top: 60px !important;
+}
+.pd-bottom-60 {
+  padding-bottom: 60px !important;
+}
+.pd-top-80 {
+  padding-top: 80px !important;
+}
+.pd-bottom-80 {
+  padding-bottom: 80px !important;
+}
 /* Sart css slide 1 */
 .slide_1__background {
   background-image: url('../assets/images/learndiagnosis01/page-01/1-1P.png');
@@ -1195,4 +1236,104 @@ export default {
   background: #ff32cd7d;
 }
 
+
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .font-size-32px {
+    font-size: calc(32*(100vw / 1024));
+  }
+  .font-size-16px {
+    font-size: calc(16 * (100vw / 1024));
+  }
+  .font-size-24px {
+    font-size: calc(24 * (100vw / 1024));
+  }
+  .font-size-8px {
+    font-size: max(8px, 8 * (100vw / 1024));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    padding: 35px 15px;
+  }
+  .triangle {
+    width: 100%;
+  }
+  .box__paragraph,
+  .box__paragraph--note {
+    margin-top: 20px;
+  }
+  .font-size-32px {
+    font-size: calc(18 * (100vw / 564));
+    line-height: 1.6;
+  }
+  .font-size-24px {
+    font-size: calc(16 * (100vw / 564));
+    line-height: 1.5;
+  }
+  .font-size-16px {
+    font-size: calc(14 * (100vw / 564));
+    line-height: 1.4;
+  }
+  .title.title__special {
+    font-size: calc(16 * (100vw / 564));
+  }
+  .paragraph.paragraph__special{
+    font-size: calc(20 * (100vw / 564));
+  }
+  .triangle.slide_7__triangle {
+    background: #064e6a7d;
+  }
+  .triangle.slide_9__triangle {
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  }
+  .triangle.slide_10__triangle {
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+  }
+  .mb_is_bottom--right {
+    top: initial;
+    left: inherit;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+  }
+  .mb_is_bottom--left {
+    top: initial;
+    left: inherit;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 564px) {
+  .font-size-32px {
+    font-size: calc(18 * (100vw / 375));
+  }
+  .font-size-24px {
+    font-size: calc(16 * (100vw / 375));
+  }
+  .font-size-16px {
+    font-size: calc(14 * (100vw / 375));
+  }
+  .title.title__special {
+    font-size: calc(16 * (100vw / 375));
+  }
+  .paragraph.paragraph__special{
+    font-size: calc(20 * (100vw / 375));
+  }
+  .pd-top-60 {
+    padding-top: 35px !important;
+  }
+  .pd-bottom-60 {
+    padding-bottom: 35px !important;
+  }
+  .pd-top-80 {
+    padding-top: 35px !important;
+  }
+  .pd-bottom-80 {
+    padding-bottom: 35px !important;
+  }
+}
 </style>
