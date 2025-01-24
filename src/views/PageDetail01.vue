@@ -356,7 +356,7 @@ export default {
   mounted() {
     this.$nextTick(() => {
       let count_delay = 1;
-      const timeDuration = 200;
+      const timeDuration = 500;
       anime({
         targets: this.$refs.slide_1,
         opacity: [0, 1],
