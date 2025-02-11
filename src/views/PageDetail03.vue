@@ -926,6 +926,9 @@ export default {
 
 /* Responsive */
 @media screen and (max-width: 1024px) {
+  .background {
+    background-position: 65% center;
+  }
   .font-size-32px {
     font-size: calc(32*(100vw / 1024));
   }
