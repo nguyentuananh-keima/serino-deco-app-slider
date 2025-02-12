@@ -8,7 +8,7 @@
 
         <!-- Title -->
         <div class="box__title">
-          <p v-for="(title_01, index) in slide_1_title" :key="index" :ref="'title_01' + index" class="title font-size-32px font-weight-bold">{{title_01}}</p>
+          <p v-for="(title_1, index) in slide_1_title" :key="index" :ref="'title_1' + index" class="title font-size-32px font-weight-bold">{{title_1}}</p>
         </div>
       </div>
     </div>
@@ -20,12 +20,12 @@
 
         <!-- Title -->
         <div class="box__title">
-          <p v-for="(title_02, index) in slide_2_title" :key="index" :ref="'title_02' + index" class="title font-size-32px font-weight-bold">{{title_02}}</p>
+          <p v-for="(title_2, index) in slide_2_title" :key="index" :ref="'title_2' + index" class="title font-size-32px font-weight-bold">{{title_2}}</p>
         </div>
         <!-- Paragraph -->
         <div class="box__paragraph">
-          <p v-for="(line_02, index) in slide_2_paragraph" :key="index" :ref="'line_02' + index" class="paragraph font-size-16px font-weight-normal">
-            {{ line_02 }}
+          <p v-for="(line_2, index) in slide_2_paragraph" :key="index" :ref="'line_2' + index" class="paragraph font-size-16px font-weight-normal">
+            {{ line_2 }}
           </p>
         </div>
       </div>
@@ -38,12 +38,12 @@
 
         <!-- Title -->
         <div class="box__title">
-          <p v-for="(title_03, index) in slide_3_title" :key="index" :ref="'title_03' + index" class="title font-size-32px font-weight-bold">{{title_03}}</p>
+          <p v-for="(title_3, index) in slide_3_title" :key="index" :ref="'title_3' + index" class="title font-size-32px font-weight-bold">{{title_3}}</p>
         </div>
         <!-- Paragraph -->
         <div class="box__paragraph">
-          <p v-for="(line_03, index) in slide_3_paragraph" :key="index" :ref="'line_03' + index" class="paragraph font-size-16px font-weight-normal">
-            {{ line_03 }}
+          <p v-for="(line_3, index) in slide_3_paragraph" :key="index" :ref="'line_3' + index" class="paragraph font-size-16px font-weight-normal">
+            {{ line_3 }}
           </p>
         </div>
       </div>
@@ -56,12 +56,12 @@
 
         <!-- Title -->
         <div class="box__title">
-          <p v-for="(title_04, index) in slide_4_title" :key="index" :ref="'title_04' + index" class="title font-size-32px font-weight-bold">{{title_04}}</p>
+          <p v-for="(title_4, index) in slide_4_title" :key="index" :ref="'title_4' + index" class="title font-size-32px font-weight-bold">{{title_4}}</p>
         </div>
         <!-- Paragraph -->
         <div class="box__paragraph">
-          <p v-for="(line_04, index) in slide_4_paragraph" :key="index" :ref="'line_04' + index" class="paragraph font-size-16px font-weight-normal">
-            {{ line_04 }}
+          <p v-for="(line_4, index) in slide_4_paragraph" :key="index" :ref="'line_4' + index" class="paragraph font-size-16px font-weight-normal">
+            {{ line_4 }}
           </p>
         </div>
       </div>
@@ -74,12 +74,12 @@
 
         <!-- Title -->
         <div class="box__title">
-          <p v-for="(title_05, index) in slide_5_title" :key="index" :ref="'title_05' + index" class="title font-size-32px font-weight-bold">{{title_05}}</p>
+          <p v-for="(title_5, index) in slide_5_title" :key="index" :ref="'title_5' + index" class="title font-size-32px font-weight-bold">{{title_5}}</p>
         </div>
         <!-- Paragraph -->
         <div class="box__paragraph">
-          <p v-for="(line_05, index) in slide_5_paragraph" :key="index" :ref="'line_05' + index" class="paragraph font-size-16px font-weight-normal">
-            {{ line_05 }}
+          <p v-for="(line_5, index) in slide_5_paragraph" :key="index" :ref="'line_5' + index" class="paragraph font-size-16px font-weight-normal">
+            {{ line_5 }}
           </p>
         </div>
       </div>
@@ -92,12 +92,12 @@
 
         <!-- Title -->
         <div class="box__title">
-          <p v-for="(title_06, index) in slide_6_title" :key="index" :ref="'title_06' + index" class="title font-size-32px font-weight-bold">{{title_06}}</p>
+          <p v-for="(title_6, index) in slide_6_title" :key="index" :ref="'title_6' + index" class="title font-size-32px font-weight-bold">{{title_6}}</p>
         </div>
         <!-- Paragraph -->
         <div class="box__paragraph">
-          <p v-for="(line_06, index) in slide_6_paragraph" :key="index" :ref="'line_06' + index" class="paragraph font-size-16px font-weight-normal">
-            {{ line_06 }}
+          <p v-for="(line_6, index) in slide_6_paragraph" :key="index" :ref="'line_6' + index" class="paragraph font-size-16px font-weight-normal">
+            {{ line_6 }}
           </p>
         </div>
       </div>
@@ -110,19 +110,19 @@
 
         <!-- Title -->
         <div class="box__title">
-          <p v-for="(title_07, index) in slide_7_title" :key="index" :ref="'title_07' + index" class="title font-size-32px font-weight-bold">{{title_07}}</p>
+          <p v-for="(title_7, index) in slide_7_title" :key="index" :ref="'title_7' + index" class="title font-size-32px font-weight-bold">{{title_7}}</p>
         </div>
 
         <!-- Paragraph -->
         <div class="box__paragraph">
-          <p v-for="(line_07, index) in slide_7_paragraph" :key="index" :ref="'line_07' + index" class="paragraph font-size-16px font-weight-normal">
-            {{ line_07 }}
+          <p v-for="(line_7, index) in slide_7_paragraph" :key="index" :ref="'line_7' + index" class="paragraph font-size-16px font-weight-normal">
+            {{ line_7 }}
           </p>
         </div>
         <!-- Paragraph -->
         <div class="box__paragraph mt-5 mb-is-mt-5">
-          <p v-for="(line_07_note, index) in slide_7_paragraph_note" :key="index" :ref="'line_07_note' + index" class="paragraph font-size-8px font-weight-normal">
-            {{ line_07_note }}
+          <p v-for="(line_7_note, index) in slide_7_paragraph_note" :key="index" :ref="'line_7_note' + index" class="paragraph font-size-8px font-weight-normal">
+            {{ line_7_note }}
           </p>
         </div>
       </div>
@@ -135,13 +135,13 @@
 
         <!-- Title -->
         <div class="box__title">
-          <p v-for="(title_08, index) in slide_8_title" :key="index" :ref="'title_08' + index" class="title font-size-32px font-weight-bold">{{title_08}}</p>
+          <p v-for="(title_8, index) in slide_8_title" :key="index" :ref="'title_8' + index" class="title font-size-32px font-weight-bold">{{title_8}}</p>
         </div>
 
         <!-- Paragraph -->
         <div class="box__paragraph">
-          <p v-for="(line_08, index) in slide_8_paragraph" :key="index" :ref="'line_08' + index" class="paragraph font-size-16px font-weight-normal">
-            {{ line_08 }}
+          <p v-for="(line_8, index) in slide_8_paragraph" :key="index" :ref="'line_8' + index" class="paragraph font-size-16px font-weight-normal">
+            {{ line_8 }}
           </p>
         </div>
       </div>
@@ -268,7 +268,7 @@ export default {
       count_delay++;
       this.slide_1_title.forEach((_, index) => {
         anime({
-          targets: this.$refs['title_01' + index],
+          targets: this.$refs['title_1' + index],
           opacity: [0, 1],
           duration: timeDuration,
           easing: 'easeInOutQuad',
@@ -317,7 +317,7 @@ export default {
     count_delay++;
     this.slide_2_title.forEach((_, index) => {
       anime({
-        targets: this.$refs['title_02' + index],
+        targets: this.$refs['title_2' + index],
         opacity: [0, 1],
         duration: timeDuration,
         easing: 'easeInOutQuad',
@@ -327,7 +327,7 @@ export default {
     });
     this.slide_2_paragraph.forEach((_, index) => {
       anime({
-        targets: this.$refs['line_02' + index],
+        targets: this.$refs['line_2' + index],
         opacity: [0, 1],
         duration: timeDuration,
         easing: 'easeInOutQuad',
@@ -376,7 +376,7 @@ export default {
     count_delay++;
     this.slide_3_title.forEach((_, index) => {
       anime({
-        targets: this.$refs['title_03' + index],
+        targets: this.$refs['title_3' + index],
         opacity: [0, 1],
         duration: timeDuration,
         easing: 'easeInOutQuad',
@@ -386,7 +386,7 @@ export default {
     });
     this.slide_3_paragraph.forEach((_, index) => {
       anime({
-        targets: this.$refs['line_03' + index],
+        targets: this.$refs['line_3' + index],
         opacity: [0, 1],
         duration: timeDuration,
         easing: 'easeInOutQuad',
@@ -435,7 +435,7 @@ export default {
     count_delay++;
     this.slide_4_title.forEach((_, index) => {
       anime({
-        targets: this.$refs['title_04' + index],
+        targets: this.$refs['title_4' + index],
         opacity: [0, 1],
         duration: timeDuration,
         easing: 'easeInOutQuad',
@@ -445,7 +445,7 @@ export default {
     });
     this.slide_4_paragraph.forEach((_, index) => {
       anime({
-        targets: this.$refs['line_04' + index],
+        targets: this.$refs['line_4' + index],
         opacity: [0, 1],
         duration: timeDuration,
         easing: 'easeInOutQuad',
@@ -494,7 +494,7 @@ export default {
     count_delay++;
     this.slide_5_title.forEach((_, index) => {
       anime({
-        targets: this.$refs['title_05' + index],
+        targets: this.$refs['title_5' + index],
         opacity: [0, 1],
         duration: timeDuration,
         easing: 'easeInOutQuad',
@@ -504,7 +504,7 @@ export default {
     });
     this.slide_5_paragraph.forEach((_, index) => {
       anime({
-        targets: this.$refs['line_05' + index],
+        targets: this.$refs['line_5' + index],
         opacity: [0, 1],
         duration: timeDuration,
         easing: 'easeInOutQuad',
@@ -553,7 +553,7 @@ export default {
     count_delay++;
     this.slide_6_title.forEach((_, index) => {
       anime({
-        targets: this.$refs['title_06' + index],
+        targets: this.$refs['title_6' + index],
         opacity: [0, 1],
         duration: timeDuration,
         easing: 'easeInOutQuad',
@@ -563,7 +563,7 @@ export default {
     });
     this.slide_6_paragraph.forEach((_, index) => {
       anime({
-        targets: this.$refs['line_06' + index],
+        targets: this.$refs['line_6' + index],
         opacity: [0, 1],
         duration: timeDuration,
         easing: 'easeInOutQuad',
@@ -612,7 +612,7 @@ export default {
     count_delay++;
     this.slide_7_title.forEach((_, index) => {
       anime({
-        targets: this.$refs['title_07' + index],
+        targets: this.$refs['title_7' + index],
         opacity: [0, 1],
         duration: timeDuration,
         easing: 'easeInOutQuad',
@@ -622,7 +622,7 @@ export default {
     });
     this.slide_7_paragraph.forEach((_, index) => {
       anime({
-        targets: this.$refs['line_07' + index],
+        targets: this.$refs['line_7' + index],
         opacity: [0, 1],
         duration: timeDuration,
         easing: 'easeInOutQuad',
@@ -632,7 +632,7 @@ export default {
     });
     this.slide_7_paragraph_note.forEach((_, index) => {
       anime({
-        targets: this.$refs['line_07_note' + index],
+        targets: this.$refs['line_7_note' + index],
         opacity: [0, 1],
         duration: timeDuration,
         easing: 'easeInOutQuad',
@@ -681,7 +681,7 @@ export default {
       count_delay++;
       this.slide_8_title.forEach((_, index) => {
         anime({
-          targets: this.$refs['title_08' + index],
+          targets: this.$refs['title_8' + index],
           opacity: [0, 1],
           duration: timeDuration,
           easing: 'easeInOutQuad',
@@ -691,7 +691,7 @@ export default {
       });
       this.slide_8_paragraph.forEach((_, index) => {
         anime({
-          targets: this.$refs['line_08' + index],
+          targets: this.$refs['line_8' + index],
           opacity: [0, 1],
           duration: timeDuration,
           easing: 'easeInOutQuad',
@@ -700,18 +700,18 @@ export default {
       count_delay++;
       });
       // End slide 8
-      // anime({
-      //   targets: this.$refs.slide_8,
-      //   opacity: [1, 0],
-      //   duration: timeDuration,
-      //   easing: 'easeInOutQuad',
-      //   delay: count_delay * timeDuration, 
-      //   complete: () => {
-      //     this.$refs.slide_8.style.display = 'none';
-      //     console.log('Background is now hidden');
-      //   },
-      // });
-      // count_delay++;
+      anime({
+        targets: this.$refs.slide_8,
+        opacity: [1, 0],
+        duration: timeDuration,
+        easing: 'easeInOutQuad',
+        delay: count_delay * timeDuration, 
+        complete: () => {
+          this.$refs.slide_8.style.display = 'none';
+          console.log('Background is now hidden');
+        },
+      });
+      count_delay++;
 
     });
   },
