@@ -248,7 +248,7 @@ export default {
   mounted() {
     this.$nextTick(() => {
       let count_delay = 1;
-      const timeDuration = 500;
+      const timeDuration = 200;
       anime({
         targets: this.$refs.slide_1,
         opacity: [0, 1],
@@ -928,6 +928,24 @@ export default {
 @media screen and (max-width: 1024px) {
   .background {
     background-position: 65% center;
+  }
+  .slide_1__background {
+    background-position: 60% center;
+  }
+  .slide_3__background {
+    background-position: 55% center;
+  }
+  .slide_4__background {
+    background-position: 62% center;
+  }
+  .slide_5__background {
+    background-position: 25% center;
+  }
+  .slide_6__background {
+    background-position: 55% center;
+  }
+  .slide_7__background {
+    background-position: 54% center;
   }
   .font-size-32px {
     font-size: calc(32*(100vw / 1024));
