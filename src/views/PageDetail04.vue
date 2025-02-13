@@ -1,28 +1,19 @@
 <template>
   <div class="main">
-    <!-- Slide 01 -->
     <div ref="slide_1" class="background slide_1__background">
       <div ref="slide_1__triangle" class="triangle slide_1__triangle"></div>
-      <!-- Box -->
       <div ref="slide_1__box" class="box pd-top-80 pd-bottom-80 mb-pd-top-40">
-
-        <!-- Title -->
         <div class="box__title">
           <p v-for="(title_1, index) in slide_1_title" :key="index" :ref="'title_1' + index" class="title font-size-32px font-weight-bold">{{title_1}}</p>
         </div>
       </div>
     </div>
-    <!-- Slide 02 -->
     <div ref="slide_2" class="background slide_2__background">
       <div ref="slide_2__triangle" class="triangle slide_2__triangle is_bottom--left"></div>
-      <!-- Box -->
       <div ref="slide_2__box" class="box is_bottom--left pd-top-120 pd-bottom-120">
-
-        <!-- Title -->
         <div class="box__title">
           <p v-for="(title_2, index) in slide_2_title" :key="index" :ref="'title_2' + index" class="title font-size-32px font-weight-bold">{{title_2}}</p>
         </div>
-        <!-- Paragraph -->
         <div class="box__paragraph">
           <p v-for="(line_2, index) in slide_2_paragraph" :key="index" :ref="'line_2' + index" class="paragraph font-size-16px font-weight-normal">
             {{ line_2 }}
@@ -30,17 +21,12 @@
         </div>
       </div>
     </div>
-    <!-- Slide 03 -->
     <div ref="slide_3" class="background slide_3__background">
       <div ref="slide_3__triangle" class="triangle slide_3__triangle is_bottom--right"></div>
-      <!-- Box -->
       <div ref="slide_3__box" class="box is_bottom--right text-align-right pd-top-120 pd-bottom-120">
-
-        <!-- Title -->
         <div class="box__title">
           <p v-for="(title_3, index) in slide_3_title" :key="index" :ref="'title_3' + index" class="title font-size-32px font-weight-bold">{{title_3}}</p>
         </div>
-        <!-- Paragraph -->
         <div class="box__paragraph">
           <p v-for="(line_3, index) in slide_3_paragraph" :key="index" :ref="'line_3' + index" class="paragraph font-size-16px font-weight-normal">
             {{ line_3 }}
@@ -48,17 +34,12 @@
         </div>
       </div>
     </div>
-    <!-- Slide 04 -->
     <div ref="slide_4" class="background slide_4__background">
       <div ref="slide_4__triangle" class="triangle slide_4__triangle is_bottom--left"></div>
-      <!-- Box -->
       <div ref="slide_4__box" class="box is_bottom--left pd-top-80 pd-bottom-80">
-
-        <!-- Title -->
         <div class="box__title">
           <p v-for="(title_4, index) in slide_4_title" :key="index" :ref="'title_4' + index" class="title font-size-32px font-weight-bold">{{title_4}}</p>
         </div>
-        <!-- Paragraph -->
         <div class="box__paragraph">
           <p v-for="(line_4, index) in slide_4_paragraph" :key="index" :ref="'line_4' + index" class="paragraph font-size-16px font-weight-normal">
             {{ line_4 }}
@@ -66,17 +47,12 @@
         </div>
       </div>
     </div>
-    <!-- Slide 05 -->
     <div ref="slide_5" class="background slide_5__background">
       <div ref="slide_5__triangle" class="triangle slide_5__triangle is_bottom--right"></div>
-      <!-- Box -->
       <div ref="slide_5__box" class="box is_bottom--right text-align-right">
-
-        <!-- Title -->
         <div class="box__title">
           <p v-for="(title_5, index) in slide_5_title" :key="index" :ref="'title_5' + index" class="title font-size-32px font-weight-bold">{{title_5}}</p>
         </div>
-        <!-- Paragraph -->
         <div class="box__paragraph">
           <p v-for="(line_5, index) in slide_5_paragraph" :key="index" :ref="'line_5' + index" class="paragraph font-size-16px font-weight-normal">
             {{ line_5 }}
@@ -84,17 +60,12 @@
         </div>
       </div>
     </div>
-    <!-- Slide 06 -->
     <div ref="slide_6" class="background slide_6__background">
       <div ref="slide_6__triangle" class="triangle slide_6__triangle is_bottom--left"></div>
-      <!-- Box -->
       <div ref="slide_6__box" class="box is_bottom--left pd-top-120 pd-bottom-120">
-
-        <!-- Title -->
         <div class="box__title">
           <p v-for="(title_6, index) in slide_6_title" :key="index" :ref="'title_6' + index" class="title font-size-32px font-weight-bold">{{title_6}}</p>
         </div>
-        <!-- Paragraph -->
         <div class="box__paragraph">
           <p v-for="(line_6, index) in slide_6_paragraph" :key="index" :ref="'line_6' + index" class="paragraph font-size-16px font-weight-normal">
             {{ line_6 }}
@@ -102,24 +73,17 @@
         </div>
       </div>
     </div>
-    <!-- Slide 07 -->
     <div ref="slide_7" class="background slide_7__background">
       <div ref="slide_7__triangle" class="triangle slide_7__triangle is_bottom--left"></div>
-      <!-- Box -->
       <div ref="slide_7__box" class="box is_bottom--left pd-bottom-10 mb_is_bottom--right">
-
-        <!-- Title -->
         <div class="box__title">
           <p v-for="(title_7, index) in slide_7_title" :key="index" :ref="'title_7' + index" class="title font-size-32px font-weight-bold">{{title_7}}</p>
         </div>
-
-        <!-- Paragraph -->
         <div class="box__paragraph">
           <p v-for="(line_7, index) in slide_7_paragraph" :key="index" :ref="'line_7' + index" class="paragraph font-size-16px font-weight-normal">
             {{ line_7 }}
           </p>
         </div>
-        <!-- Paragraph -->
         <div class="box__paragraph mt-5 mb-is-mt-5">
           <p v-for="(line_7_note, index) in slide_7_paragraph_note" :key="index" :ref="'line_7_note' + index" class="paragraph font-size-8px font-weight-normal">
             {{ line_7_note }}
@@ -127,18 +91,12 @@
         </div>
       </div>
     </div>
-    <!-- Slide 08 -->
     <div ref="slide_8" class="background slide_8__background">
       <div ref="slide_8__triangle" class="triangle slide_8__triangle is_bottom--right"></div>
-      <!-- Box -->
       <div ref="slide_8__box" class="box is_bottom--right text-align-right mb_is_bottom--left">
-
-        <!-- Title -->
         <div class="box__title">
           <p v-for="(title_8, index) in slide_8_title" :key="index" :ref="'title_8' + index" class="title font-size-32px font-weight-bold">{{title_8}}</p>
         </div>
-
-        <!-- Paragraph -->
         <div class="box__paragraph">
           <p v-for="(line_8, index) in slide_8_paragraph" :key="index" :ref="'line_8' + index" class="paragraph font-size-16px font-weight-normal">
             {{ line_8 }}
@@ -289,7 +247,6 @@ export default {
         },
       });
       count_delay++;
-
     // Start slide 2
     anime({
       targets: this.$refs.slide_2,
@@ -348,7 +305,6 @@ export default {
       },
     });
     count_delay++;
-    
     // Start slide 3
     anime({
       targets: this.$refs.slide_3,
@@ -407,7 +363,6 @@ export default {
       },
     });
     count_delay++;
-
     // Start slide 4
     anime({
       targets: this.$refs.slide_4,
@@ -466,7 +421,6 @@ export default {
       },
     });
     count_delay++;
-
     // Start slide 5
     anime({
       targets: this.$refs.slide_5,
@@ -525,7 +479,6 @@ export default {
       },
     });
     count_delay++;
-
     // Start slide 6
     anime({
       targets: this.$refs.slide_6,
@@ -584,7 +537,6 @@ export default {
       },
     });
     count_delay++;
-
     // Start slide 7
     anime({
       targets: this.$refs.slide_7,
@@ -653,7 +605,6 @@ export default {
       },
     });
     count_delay++;
-
     // Start slide 8
       anime({
         targets: this.$refs.slide_8,
@@ -712,7 +663,6 @@ export default {
         },
       });
       count_delay++;
-
     });
   },
 };
